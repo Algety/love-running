@@ -10,7 +10,7 @@
 
 /* Setting the content to be displayed in column and min 100% height of the page */
 body {
-    min-height: 100vh;
+    min-height: 200vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -21,7 +21,12 @@ body {
 
 /*Header*/
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 /*Main content*/
